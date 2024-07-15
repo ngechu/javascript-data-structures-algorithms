@@ -13,4 +13,18 @@ function fibonacci(num) {
 
 }
 
-console.log(fibonacci(10))
+
+///Using recursion
+
+function recursive_fib(num) {
+	//Base case
+	if (num < 2) {
+		return num
+	}
+	console.log(num)
+	return recursive_fib(num - 1) + recursive_fib(num - 2)
+}
+
+// console.log(fibonacci(6))
+
+console.log(recursive_fib(6))

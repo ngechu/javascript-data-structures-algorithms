@@ -8,4 +8,4 @@ function factorial(num) {
   return current;
 }
 
-console.log('XXXXXXXXXXXXXXXXX', factorial(3));
+console.log('XXXXXXXXXXXXXXXXX', factorial(5));
