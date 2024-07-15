@@ -4,7 +4,7 @@ const binarySearch = (arr, target) => {
 	///Set the first pointer and the last pointer
 	let firstIndex = 0
 	let lastIndex = arr.length - 1
-	// As long as the last pointer is not less than the first pointer, means that the current index is the middle of the array
+	// As long as the last pointer is not less than the first pointer, means that the current index is the middle of the array , which is caught by the last else.
 	while (lastIndex >= firstIndex) {
 		//Get the current midpoint index of the array at this point of the loop
 		//Get the floor value to avoid jumping over values which may be the one you are searching for
